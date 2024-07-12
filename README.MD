@@ -31,7 +31,7 @@
 
 <ul>
 <li>[x] Postgresql.</li>
-<ul>
+</ul>
 
 <h4>Spring Boot:</h4>
 
