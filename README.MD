@@ -1,4 +1,4 @@
-**\*\*** Requisitos do Sistema **\*\***
-
-[ ] Cadastro de Combustíveis: Criação, leitura, atualização e exclusão (CRUD) de tipos de combustíveis (Gasolina, Etanol).
-[x]
+**\*\*** Requisitos do Sistema **\*\*
+<ul>
+  <li>teste </li>
+</ul>
