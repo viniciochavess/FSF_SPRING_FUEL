@@ -27,15 +27,15 @@
 
 **\*\*\*** Requisitos Técnicos **\*\*\***
 
-Banco de Dados:
+<h4>Banco de Dados:</h4>
 
 <ul>
-<li>Postgresql.</li>
+<li>[x] Postgresql.</li>
 <ul>
 
-Spring Boot:
+<h4>Spring Boot:</h4>
 
 <ul>
-<li>Utilizar Spring Data JPA para a persistência dos dados.</li>
-<li>Implementar autenticação e autorização utilizando Spring Security.</li>
+<li>[x]Utilizar Spring Data JPA para a persistência dos dados.</li>
+<li>[ ]Implementar autenticação e autorização utilizando Spring Security.</li>
 <ul>
