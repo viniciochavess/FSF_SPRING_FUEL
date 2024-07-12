@@ -1,4 +1,4 @@
-<h3> **\*\*** Requisitos do Sistema \*\*\*\* </h3>
+<h3> Requisitos do Sistema  </h3>
 
 <h4> Cadastro de Combustíveis: Criação, leitura, atualização e exclusão (CRUD) de tipos de combustíveis (Gasolina, Etanol).
  </h4> 
@@ -25,7 +25,7 @@
 
 </ul>
 
-<h3> **\*\*\*** Requisitos Técnicos **\*\*\*** </h3>
+<h3>  Requisitos Técnicos  </h3>
 
 <h4>Banco de Dados:</h4>
 
