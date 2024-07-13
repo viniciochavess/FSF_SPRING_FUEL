@@ -7,11 +7,13 @@ import org.hibernate.annotations.CreationTimestamp;
 
 import com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Fuel;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.validation.constraints.NotBlank;
+
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
 @Entity(name = "movement_fuel")
@@ -20,21 +22,23 @@ public class MovementFuelEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private UUID id;
-    @NotBlank
+    private int id;
+    @NotNull
     private MovementFuelEnum type;
-    @NotBlank
+    @NotNull
     private Fuel fuel;
-    @NotBlank
+    @NotNull
     private Double value;
-    @NotBlank
+
     @CreationTimestamp
+    @Column(name = "create_at")
     private LocalDateTime createAt;
-    @NotBlank
+    @NotNull
     private Double liters;
-    @NotBlank
+    @NotNull
     private int bomb;
-    @NotBlank
+    @NotNull
+    @Column(name = "time_bomb")
     private Double timeBomb;
 
 }
