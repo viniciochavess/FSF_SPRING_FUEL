@@ -1,7 +1,5 @@
 package com.gestao_combustivel.gestao_combustivel.Modules.Combustivel;
 
-
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -14,7 +12,7 @@ public class CombustivelEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private Long id;
     private Double currentValue;
     private Double total_liters;
     private Fuel fuel;

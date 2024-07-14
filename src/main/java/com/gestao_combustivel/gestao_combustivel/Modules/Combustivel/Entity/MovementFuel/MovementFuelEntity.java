@@ -1,7 +1,7 @@
 package com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Entity.MovementFuel;
 
 import java.time.LocalDateTime;
-import java.util.UUID;
+
 
 import org.hibernate.annotations.CreationTimestamp;
 

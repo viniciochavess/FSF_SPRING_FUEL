@@ -10,5 +10,7 @@ import com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Entity.Move
 public interface MovementFuelRepository extends JpaRepository<MovementFuelEntity, Long> {
 
     Optional<MovementFuelEntity> findByFuel(Fuel fuel);
+    
+
 
 }
