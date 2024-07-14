@@ -2,7 +2,6 @@ package com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Entity.Mov
 
 import java.time.LocalDateTime;
 
-
 import org.hibernate.annotations.CreationTimestamp;
 
 import com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Fuel;
@@ -29,6 +28,9 @@ public class MovementFuelEntity {
     private Fuel fuel;
     @NotNull
     private Double value;
+
+    @Column(name = "value_total")
+    private Double valueTotal;
 
     @CreationTimestamp
     @Column(name = "create_at")

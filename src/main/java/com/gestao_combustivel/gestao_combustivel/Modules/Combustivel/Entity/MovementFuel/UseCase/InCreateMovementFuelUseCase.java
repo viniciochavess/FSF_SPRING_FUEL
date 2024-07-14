@@ -26,11 +26,11 @@ public class InCreateMovementFuelUseCase {
         if (fuelOptional != null) {
             fuelOptional.get().setTotal_liters(fuelOptional.get().getTotal_liters() + movementFuelEntity.getLiters());
             CombustivelEntity fuel = fuelOptional.get();
-
             this.combustivelRepository.save(fuel);
 
         }
-
+        movementFuelEntity.setBomb(0);
+        movementFuelEntity.setValueTotal(movementFuelEntity.getValue() * movementFuelEntity.getLiters());
         return this.movementFuelRepository.save(movementFuelEntity);
 
     }

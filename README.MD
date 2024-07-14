@@ -11,9 +11,9 @@
 <h4> Registro de Vendas</h4>
 
 <ul>
-    <li> [ ] Registro das vendas realizadas com detalhes de combustível, quantidade, valor, hora e minuto do abastecimento. </li>
-    <li> [ ] Registro do tempo de abastecimento em cada bomba.</li>
-    <li> [ ] Registro do valor do litro do combustível.</li>
+    <li> [x] Registro das vendas realizadas com detalhes de combustível, quantidade, valor, hora e minuto do abastecimento. </li>
+    <li> [x] Registro do tempo de abastecimento em cada bomba.</li>
+    <li> [x] Registro do valor do litro do combustível.</li>
 
 </ul>
 

@@ -50,6 +50,7 @@ public class MovementFuelController {
     public ResponseEntity<Object> saida(@Valid @RequestBody MovementFuelEntity movementFuelEntity) {
         try {
             if (movementFuelEntity.getType().toString() == "SAIDA") {
+                movementFuelEntity.setBomb(0);
                 var result = this.outCreateMovementFullUseCase.execute(movementFuelEntity);
 
                 return ResponseEntity.ok().body(result);

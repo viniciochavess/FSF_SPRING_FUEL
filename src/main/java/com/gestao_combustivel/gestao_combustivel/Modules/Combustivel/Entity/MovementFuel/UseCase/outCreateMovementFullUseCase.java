@@ -30,11 +30,12 @@ public class outCreateMovementFullUseCase {
             if (validateLitersZero < 0) {
                 throw new FuelNotLitersZero();
             }
+
             fuelOptional.get().setTotal_liters(validateLitersZero);
             CombustivelEntity fuel = fuelOptional.get();
 
             this.combustivelRepository.save(fuel);
-
+            movementFuelEntity.setValueTotal(movementFuelEntity.getValue() * movementFuelEntity.getLiters());
             return this.movementFuelRepository.save(movementFuelEntity);
 
         }
