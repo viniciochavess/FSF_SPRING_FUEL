@@ -15,5 +15,5 @@ public class CombustivelEntity {
     private Long id;
     private Double currentValue;
     private Double total_liters;
-    private Fuel fuel;
+    private String fuel;
 }

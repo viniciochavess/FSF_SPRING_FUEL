@@ -4,8 +4,6 @@ import java.time.LocalDateTime;
 
 import org.hibernate.annotations.CreationTimestamp;
 
-import com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Fuel;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -25,7 +23,7 @@ public class MovementFuelEntity {
     @NotNull
     private MovementFuelEnum type;
     @NotNull
-    private Fuel fuel;
+    private String fuel;
     @NotNull
     private Double value;
 
