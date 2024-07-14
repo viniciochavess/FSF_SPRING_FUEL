@@ -5,7 +5,7 @@
 <h4> Cadastro de Combustíveis: Criação, leitura, atualização e exclusão (CRUD) de tipos de combustíveis (Gasolina, Etanol).
  </h4> 
 <ul>
-   <li> [ ] Controle de Estoque: Registro de entradas e saídas de combustíveis.</li>
+   <li> [x] Controle de Estoque: Registro de entradas e saídas de combustíveis.</li>
 </ul>
 
 <h4> Registro de Vendas</h4>
