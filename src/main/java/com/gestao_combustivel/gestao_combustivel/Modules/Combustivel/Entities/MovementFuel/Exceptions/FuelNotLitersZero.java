@@ -1,4 +1,4 @@
-package com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Entity.MovementFuel.Exceptions;
+package com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Entities.MovementFuel.Exceptions;
 
 public class FuelNotLitersZero extends RuntimeException {
     public FuelNotLitersZero() {

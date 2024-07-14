@@ -1,4 +1,4 @@
-package com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Entity.MovementFuel;
+package com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Entities.MovementFuel;
 
 import java.time.LocalDateTime;
 

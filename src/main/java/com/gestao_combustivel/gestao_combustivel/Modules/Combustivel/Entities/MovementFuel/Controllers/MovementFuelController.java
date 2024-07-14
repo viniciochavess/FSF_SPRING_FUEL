@@ -1,4 +1,4 @@
-package com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Entity.MovementFuel.Controllers;
+package com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Entities.MovementFuel.Controllers;
 
 import java.util.List;
 
@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Entity.MovementFuel.MovementFuelEntity;
-import com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Entity.MovementFuel.Repositories.MovementFuelRepository;
-import com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Entity.MovementFuel.UseCase.InCreateMovementFuelUseCase;
-import com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Entity.MovementFuel.UseCase.outCreateMovementFullUseCase;
+import com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Entities.MovementFuel.MovementFuelEntity;
+import com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Entities.MovementFuel.Repositories.MovementFuelRepository;
+import com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Entities.MovementFuel.UseCase.InCreateMovementFuelUseCase;
+import com.gestao_combustivel.gestao_combustivel.Modules.Combustivel.Entities.MovementFuel.UseCase.outCreateMovementFullUseCase;
 
 import jakarta.validation.Valid;
 
