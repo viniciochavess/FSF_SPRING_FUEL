@@ -70,3 +70,55 @@ PATH: http://localhost:8080/combustivel
 
 <small>Retornar todos os combustível </small>
 GET: http://localhost:8080/combustivel
+
+<h4> Entrada, Saída ou Venda </h4>
+
+<small> lista de todas as entradas, saídas e vendas </small>
+
+GET: http://localhost:8080/movimentos-combustivel
+
+<small> ENTRADA </small>
+
+POST: http://localhost:8080/movimentos-combustivel/entrada
+
+    "type":"0",
+    "fuel":"ALCOOL",
+    "value":"2.78",
+    "liters":"10.00",
+    "bomb":"10",
+    "timeBomb":"35"
+
+<small> SAÍDA </small>
+
+POST http://localhost:8080/movimentos-combustivel/saida
+
+    "type":"0",
+    "fuel":"ALCOOL",
+    "value":"2.78",
+    "liters":"5.00",
+    "bomb":"10",
+    "timeBomb":"35"
+
+<small> VENDA </small>
+
+POST: http://localhost:8080/movimentos-combustivel/venda
+
+    "type":"0",
+    "fuel":"ALCOOL",
+    "value":"2.78",
+    "liters":"5.00",
+    "bomb":"10",
+    "timeBomb":"35"
+
+<small> TODAS AS MOVIMENTAÇÕES </small>
+GET: http://localhost:8080/movimentos-combustivel
+
+<small> RELATÓRIOS </small>
+
+GET: http://localhost:8080/relatorio/fuel?&fuel=ALCOOL&startDateTime=2024-07-14T00:00:00&endDateTime=2024-07-14T23:00:00
+
+<p> Exemplo de retornar o relatório com filtro do tipo do combustível e a data. </p>
+
+GET: http://localhost:8080/relatorio
+
+<p> Sem filtro </p>
