@@ -20,10 +20,10 @@
 <h4> Relatórios</h4>
 
 <ul>
-    <li> [ ] Relatório diário do total vendido de cada tipo de combustíve.</li>
+    <li> [x] Relatório diário do total vendido de cada tipo de combustíve.</li>
     <li> [x] Relatório diário do estoque atual de cada tipo de combustível.</li>
     <li> [x] Registro do valor do litro do combustível.</li>
-    <li> [ ] Relatório diário do valor vendido de cada tipo de combustível e do total vendido. </li>
+    <li> [x] Relatório diário do valor vendido de cada tipo de combustível e do total vendido. </li>
 
 </ul>
 
