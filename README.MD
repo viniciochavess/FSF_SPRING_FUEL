@@ -43,7 +43,14 @@
 </ul>
 
 <h4> Rotas </h4>
-{
-teste
+    {
+    teste
 
+    }
+
+{
+node/fastify,
+knex,
+zod,
+Sqlite
 }
