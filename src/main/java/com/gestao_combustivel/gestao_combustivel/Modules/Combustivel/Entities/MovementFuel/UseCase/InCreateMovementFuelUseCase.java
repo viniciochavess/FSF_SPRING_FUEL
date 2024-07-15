@@ -21,7 +21,7 @@ public class InCreateMovementFuelUseCase {
 
     public MovementFuelEntity execute(MovementFuelEntity movementFuelEntity) {
 
-        Optional<CombustivelEntity> fuelOptional = this.combustivelRepository.findByFuel("GASOLINA");
+        Optional<CombustivelEntity> fuelOptional = this.combustivelRepository.findByFuel(movementFuelEntity.getFuel());
         System.out.println(fuelOptional);
 
         if (fuelOptional != null) {
