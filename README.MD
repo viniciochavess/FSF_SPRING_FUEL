@@ -43,15 +43,8 @@
 </ul>
 
 <h4> Rotas </h4>
-        {
-
-        teste, asdasd
-
-        }
 
         {
-        node/fastify,
-        knex,
-        zod,
-        Sqlite
+                alskdjklasjdklajskld
+
         }
