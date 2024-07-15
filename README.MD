@@ -44,6 +44,10 @@
 
 <h4> Rotas </h4>
 
-                alskdjklasjdklajskld
+<p> Criar usuário </p>
 
+POST: http://localhost:8080/usuarios
 
+    "name":"john doe",
+    "username":"johndoe",
+    "password":"123123123"
