@@ -41,3 +41,9 @@
 <li>[x] Utilizar Spring Data JPA para a persistência dos dados.</li>
 <li>[ ] Implementar autenticação e autorização utilizando Spring Security.</li>
 </ul>
+
+<h4> Rotas </h4>
+{
+teste
+
+}
