@@ -21,9 +21,10 @@ public class outCreateMovementFullUseCase {
     public CombustivelRepository combustivelRepository;
 
     public MovementFuelEntity execute(MovementFuelEntity movementFuelEntity) {
+        
         Double validateLitersZero = 0.0;
         Optional<CombustivelEntity> fuelOptional = this.combustivelRepository.findByFuel(movementFuelEntity.getFuel());
-
+    
         if (fuelOptional != null) {
 
             validateLitersZero = fuelOptional.get().getTotal_liters() - movementFuelEntity.getLiters();

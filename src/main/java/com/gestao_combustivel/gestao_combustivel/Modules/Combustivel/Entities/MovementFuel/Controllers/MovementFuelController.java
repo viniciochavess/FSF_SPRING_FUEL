@@ -48,6 +48,7 @@ public class MovementFuelController {
 
     @PostMapping("/saida")
     public ResponseEntity<Object> saida(@Valid @RequestBody MovementFuelEntity movementFuelEntity) {
+        System.out.println(movementFuelEntity.getPerson());
         try {
             if (movementFuelEntity.getType().toString() == "SAIDA") {
                 movementFuelEntity.setBomb(0);

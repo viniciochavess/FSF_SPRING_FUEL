@@ -40,5 +40,10 @@ public class MovementFuelEntity {
     @NotNull
     @Column(name = "time_bomb")
     private Double timeBomb;
+    
+    private String vehicle;
+    private String person;
+    private String plate;
+    private boolean pj;
 
 }
