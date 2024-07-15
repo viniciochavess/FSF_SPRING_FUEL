@@ -53,10 +53,20 @@ POST: http://localhost:8080/usuarios
     "username":"johndoe",
     "password":"123123123"
 
-<p> Criação de combustivél </p>
+<h4> combustível </h4>
 
+<small>Cadastrar combustível </small>
 POST: http://localhost:8080/combustivel
 
     "currentValue":"3.78",
     "total_liters":"0.0",
     "fuel":"ALCOOL"
+
+<small>Alterar preço </small>
+PATH: http://localhost:8080/combustivel
+
+    "name":"ALCOOL",
+    "value":7.29
+
+<small>Retornar todos os combustível </small>
+GET: http://localhost:8080/combustivel
