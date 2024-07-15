@@ -44,10 +44,19 @@
 
 <h4> Rotas </h4>
 
-<p> Criar usuário </p>
+<h4> Usuário </h4>
 
+<small>Criação de usuário </small>
 POST: http://localhost:8080/usuarios
 
     "name":"john doe",
     "username":"johndoe",
     "password":"123123123"
+
+<p> Criação de combustivél </p>
+
+POST: http://localhost:8080/combustivel
+
+    "currentValue":"3.78",
+    "total_liters":"0.0",
+    "fuel":"ALCOOL"
