@@ -53,7 +53,7 @@ POST: http://localhost:8080/usuarios
     "username":"johndoe",
     "password":"123123123"
 
-<h4> combustível </h4>
+<h4> Combustível </h4>
 
 <small>Cadastrar combustível </small>
 POST: http://localhost:8080/combustivel
