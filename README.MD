@@ -53,6 +53,14 @@ POST: http://localhost:8080/usuarios
     "username":"johndoe",
     "password":"123123123"
 
+<small> Gerar Token </small>
+POST: http://localhost:8080/session
+
+  "username":"johndoe",
+  "password":"123456789"
+
+
+
 <h4> Combustível </h4>
 
 <small>Cadastrar combustível </small>
@@ -92,10 +100,10 @@ POST: http://localhost:8080/movimentos-combustivel/entrada
 
 POST http://localhost:8080/movimentos-combustivel/saida
 
-    "type":"0",
+    "type":"1",
     "fuel":"ALCOOL",
     "value":"2.78",
-    "liters":"5.00",
+    "liters":"2.00",
     "bomb":"10",
     "timeBomb":"35"
 
@@ -103,12 +111,16 @@ POST http://localhost:8080/movimentos-combustivel/saida
 
 POST: http://localhost:8080/movimentos-combustivel/venda
 
-    "type":"0",
-    "fuel":"ALCOOL",
-    "value":"2.78",
-    "liters":"5.00",
-    "bomb":"10",
-    "timeBomb":"35"
+    "type": 2,
+	"fuel": "ALCOOL",
+	"value": 4.78,
+	"liters": 2.0,
+	"bomb": 10,
+	"timeBomb": 35.0,
+	"vehicle": "Celta",
+	"person": "000.000.000/00",
+	"plate": "AAVC-32",
+	"pj": false
 
 <small> TODAS AS MOVIMENTAÇÕES </small>
 GET: http://localhost:8080/movimentos-combustivel
